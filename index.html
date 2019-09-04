@@ -7,6 +7,7 @@
     .box{
         position: relative;
         display: inline-block; /* Make the width of box same as image */
+        margin-left: 20%;
     }
     .box .text{
         position: absolute;
@@ -17,12 +18,17 @@
         top: 40%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 60%; /* Set the width of the positioned div */
+        color: crimson;
+    }
+    #img{
+        width: 600px;
+        height: 600px;
     }
 </style>
 </head> 
 <body>
     <div class="box">
-        <img src="img/nat3.jpg" alt="Flying Kites">
+        <img src="img/nat3.jpg" id="img">
         <div class="text">
             <h1>See me I am over image</h1>
         </div>
