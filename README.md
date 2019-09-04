@@ -1,0 +1,1 @@
+Centering text at center of image using css positioning property
